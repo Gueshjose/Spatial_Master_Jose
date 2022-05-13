@@ -1,0 +1,700 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background: url("/images/banner.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+header nav {
+  background-color: rgba(41, 46, 57, 0.7529411765);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  padding: 3% 0;
+  justify-content: space-between;
+  color: #d4cdbd;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 0.9vw;
+}
+header nav .tLog {
+  margin-left: 2%;
+  width: 30%;
+}
+header nav .tLog p b {
+  font-weight: 20%;
+  font-size: 1vw;
+}
+header nav ul {
+  width: 70%;
+  display: flex;
+  justify-content: right;
+  margin: 0 2%;
+  gap: 0.2%;
+}
+header nav ul li {
+  width: 10%;
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #d4cdbd;
+}
+header #banner {
+  background-color: rgba(41, 46, 57, 0.7529411765);
+  width: 100%;
+  height: 38vh;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+header #banner h1 {
+  font-size: 2.2vw;
+  width: 10%;
+  margin: auto;
+}
+header #banner p {
+  width: 40%;
+  margin: auto;
+  font-size: 0.8vw;
+}
+header #banner button {
+  width: 10%;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 6%;
+  background-color: #f32853;
+  border: none;
+  border-radius: 3%;
+}
+header #banner button a {
+  text-decoration: none;
+  color: withe;
+  font-size: 0.9vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #484848;
+  padding: 3% 0;
+}
+section:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+section:nth-child(even) {
+  background-color: #ffffff;
+}
+section:nth-of-type(1) {
+  height: 30vh;
+  color: #aaaaaa;
+  justify-content: center;
+  gap: 5%;
+}
+section:nth-of-type(1) div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+}
+section:nth-of-type(1) div h2 {
+  font-size: 2.2vw;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #484848;
+  margin-bottom: 5%;
+}
+section:nth-of-type(1) div h2 {
+  text-transform: uppercase;
+}
+section:nth-of-type(1) div h2 + p {
+  font-size: 1.2vw;
+  margin-bottom: 4%;
+}
+section:nth-of-type(1) div p {
+  font-size: 1vw;
+  margin-bottom: 8%;
+}
+section:nth-of-type(2) {
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+section:nth-of-type(2) div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+section:nth-of-type(2) div figure {
+  width: 35%;
+  justify-content: center;
+}
+section:nth-of-type(2) div figure img {
+  width: 100%;
+}
+section:nth-of-type(2) div figure figcaption {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 5% 0;
+  width: 100%;
+  height: 3vh;
+  color: #484848;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+  font-weight: bold;
+  margin-top: -10px;
+}
+section:nth-of-type(2) div button {
+  margin-top: 2%;
+  width: 12%;
+  height: 5vh;
+  color: white;
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 5%;
+}
+section:nth-of-type(2) div #bR {
+  background-color: #f32853;
+}
+section:nth-of-type(2) div #bN {
+  background-color: #323037;
+}
+section:nth-of-type(2) div:nth-of-type(1) {
+  width: 100%;
+  height: 80px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 3%;
+}
+section:nth-of-type(2) div:nth-of-type(1) h2, section:nth-of-type(2) div:nth-of-type(1) p {
+  width: 100%;
+}
+section:nth-of-type(2) div:nth-of-type(1) h2 {
+  font-size: 2.2vw;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+section:nth-of-type(2) div:nth-of-type(1) p {
+  text-transform: uppercase;
+  font-size: 1.2vw;
+  color: #aaaaaa;
+}
+section:nth-of-type(3) {
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+section:nth-of-type(3) #dTitre {
+  display: flex;
+  height: 18vh;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  gap: 5%;
+}
+section:nth-of-type(3) #dTitre h2 {
+  font-size: 2vw;
+}
+section:nth-of-type(3) #dTitre h3 {
+  font-size: 1vw;
+  color: #aaaaaa;
+}
+section:nth-of-type(3) div {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  gap: 5%;
+  flex-wrap: wrap;
+  margin: auto;
+}
+section:nth-of-type(3) div div {
+  width: 45%;
+  margin: 2% 0;
+  display: flex;
+  gap: 10%;
+  align-content: center;
+}
+section:nth-of-type(3) div div .texte {
+  width: 65%;
+  flex-direction: column;
+  height: 15vh;
+}
+section:nth-of-type(3) div div .texte h4 {
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+section:nth-of-type(3) div div .texte h5 {
+  font-size: 0.9vw;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+section:nth-of-type(3) div div .texte p {
+  font-size: 0.9vw;
+  color: #aaaaaa;
+}
+section:nth-of-type(3) div div .dImg {
+  width: 25%;
+}
+section:nth-of-type(3) div div .dImg img {
+  width: 100%;
+  height: auto;
+  border: 6px solid #e3e3e3;
+  border-radius: 50%;
+}
+section:nth-of-type(3) div div:nth-of-type(odd) {
+  text-align: right;
+}
+section:nth-of-type(3) div div:nth-of-type(odd) p {
+  text-align: right;
+}
+section:nth-of-type(3) div div:nth-of-type(even) {
+  text-align: left;
+}
+section:nth-of-type(3) div div:nth-of-type(even) p {
+  text-align: left;
+}
+section:nth-of-type(4) {
+  background: url("../../images/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  height: 40vh;
+  display: inline-block;
+  padding: 0;
+}
+section:nth-of-type(4) div {
+  width: 100%;
+  background-color: rgba(41, 46, 57, 0.7529411765);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+section:nth-of-type(4) div h2 {
+  font-size: 2vw;
+  margin-bottom: 0.5%;
+}
+section:nth-of-type(4) div h3 {
+  font-size: 1vw;
+  color: #aaaaaa;
+  margin-bottom: 2%;
+}
+section:nth-of-type(4) div button {
+  width: 9%;
+  height: 36px;
+  margin: 0 auto;
+  background-color: #f32853;
+  border: none;
+  border-radius: 3%;
+}
+section:nth-of-type(4) div button a {
+  text-decoration: none;
+  color: withe;
+  font-size: 0.9vw;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #f6f6f6;
+}
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #aaaaaa;
+  margin-bottom: 2%;
+  gap: 3%;
+}
+footer div i {
+  font-size: 1.4vw;
+}
+footer div pre {
+  font-size: 0.6vw;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header nav {
+    height: 30px;
+    font-size: 2.5vw;
+    flex-direction: column;
+  }
+  header nav .tLog {
+    margin: 0 10%;
+    width: 70%;
+  }
+  header nav .tLog p b {
+    font-weight: 20%;
+    font-size: 3vw;
+  }
+  header nav ul {
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  header nav ul li {
+    width: 12%;
+    text-align: center;
+  }
+  header #banner {
+    height: 120px;
+    text-align: center;
+  }
+  header #banner h1 {
+    font-size: 4vw;
+    width: 20%;
+  }
+  header #banner p {
+    display: inline-block;
+    width: 70%;
+    font-size: 1.8vw;
+  }
+  header #banner button {
+    width: 20%;
+    height: 26%;
+  }
+  header #banner button a {
+    font-size: 2vw;
+  }
+
+  section:nth-of-type(1) {
+    height: 20%;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+  }
+  section:nth-of-type(1) div {
+    width: 80%;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 1% 4%;
+  }
+  section:nth-of-type(1) div h2 {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(1) div h2 + p {
+    font-size: 3vw;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+  section:nth-of-type(1) div p {
+    font-size: 2.2vw;
+    margin-bottom: 4%;
+  }
+  section:nth-of-type(1) div:nth-of-type(2) {
+    flex-direction: row;
+    text-align: justify;
+    gap: 5%;
+  }
+  section:nth-of-type(2) div {
+    flex-direction: column;
+  }
+  section:nth-of-type(2) div:nth-of-type(1) h2 {
+    font-size: 4vw;
+  }
+  section:nth-of-type(2) div:nth-of-type(1) p {
+    font-size: 3vw;
+  }
+  section:nth-of-type(2) div figure {
+    width: 80%;
+    margin: 2% auto;
+  }
+  section:nth-of-type(2) div figure figcaption {
+    height: 1.5vh;
+    font-size: 2.2vw;
+  }
+  section:nth-of-type(2) div:nth-of-type(3) {
+    flex-direction: row;
+  }
+  section:nth-of-type(2) div:nth-of-type(3) button {
+    width: 25%;
+    height: 4vh;
+    font-size: 2.5vw;
+  }
+  section:nth-of-type(3) #dTitre {
+    height: 10vh;
+    align-content: center;
+  }
+  section:nth-of-type(3) #dTitre h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  section:nth-of-type(3) #dTitre h3 {
+    font-size: 3vw;
+    text-align: center;
+  }
+  section:nth-of-type(3) div {
+    width: 90%;
+  }
+  section:nth-of-type(3) div div {
+    width: 70%;
+    margin: 2% 0;
+  }
+  section:nth-of-type(3) div div .texte {
+    width: 100%;
+    flex-direction: column;
+    height: 15vh;
+  }
+  section:nth-of-type(3) div div .texte h4 {
+    font-size: 3.5vw;
+    text-transform: uppercase;
+  }
+  section:nth-of-type(3) div div .texte h5 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #aaaaaa;
+  }
+  section:nth-of-type(3) div div .texte p {
+    font-size: 2.8vw;
+    color: #aaaaaa;
+  }
+  section:nth-of-type(3) div div .texte:nth-of-type(even) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  section:nth-of-type(3) div div .texte:nth-of-type(even) h4 {
+    margin-bottom: 5%;
+  }
+  section:nth-of-type(3) div div .texte:nth-of-type(even) h5 {
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(3) div div .texte:nth-of-type(even) p {
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(3) div div .dImg {
+    width: 95%;
+  }
+  section:nth-of-type(3) div div:nth-of-type(odd) {
+    text-align: center;
+  }
+  section:nth-of-type(3) div div:nth-of-type(odd) p {
+    text-align: center;
+  }
+  section:nth-of-type(3) div div:nth-of-type(even) {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  section:nth-of-type(3) div div:nth-of-type(even) p {
+    text-align: center;
+  }
+  section:nth-of-type(4) {
+    height: 20vh;
+  }
+  section:nth-of-type(4) div {
+    height: 20vh;
+  }
+  section:nth-of-type(4) div h2 {
+    font-size: 4vw;
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(4) div h3 {
+    font-size: 3vw;
+  }
+  section:nth-of-type(4) div button {
+    width: 25%;
+    height: 22px;
+  }
+  section:nth-of-type(4) div button a {
+    font-size: 2.5vw;
+  }
+
+  footer {
+    width: 100%;
+    height: 20vh;
+  }
+  footer div {
+    margin-bottom: 4%;
+  }
+  footer div i {
+    font-size: 3.6vw;
+  }
+  footer div pre {
+    font-size: 2.6vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  header nav {
+    height: 60px;
+    font-size: 2.2vw;
+    flex-direction: column;
+  }
+  header nav .tLog {
+    margin: 0 5%;
+    width: 70%;
+  }
+  header nav .tLog p b {
+    font-weight: 20%;
+    font-size: 3vw;
+  }
+  header nav ul {
+    width: 100%;
+  }
+  header nav ul li {
+    width: 40%;
+    text-align: center;
+  }
+  header #banner {
+    height: 200px;
+    text-align: center;
+  }
+  header #banner h1 {
+    font-size: 5vw;
+    width: 25%;
+  }
+  header #banner p {
+    display: inline-block;
+    width: 80%;
+    font-size: 1.5vw;
+  }
+  header #banner button {
+    width: 20%;
+    height: 26%;
+  }
+
+  section:nth-of-type(1) {
+    height: 15%;
+  }
+  section:nth-of-type(1) div {
+    width: 90%;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 1% 4%;
+  }
+  section:nth-of-type(1) div h2 {
+    text-align: left;
+    font-size: 3vw;
+  }
+  section:nth-of-type(1) div h2 + p {
+    font-size: 2.2vw;
+    margin-bottom: 1%;
+    text-align: left;
+  }
+  section:nth-of-type(1) div p {
+    font-size: 1.6vw;
+    margin-bottom: 2%;
+  }
+  section:nth-of-type(2) div {
+    flex-direction: column;
+  }
+  section:nth-of-type(2) div:nth-of-type(1) h2 {
+    font-size: 3vw;
+  }
+  section:nth-of-type(2) div:nth-of-type(1) p {
+    font-size: 2vw;
+  }
+  section:nth-of-type(2) div figure {
+    width: 85%;
+    margin: 2% auto;
+  }
+  section:nth-of-type(2) div figure figcaption {
+    height: 1.5vh;
+    font-size: 2vw;
+  }
+  section:nth-of-type(2) div:nth-of-type(3) {
+    flex-direction: row;
+  }
+  section:nth-of-type(2) div:nth-of-type(3) button {
+    width: 25%;
+    height: 6vh;
+    font-size: 2.5vw;
+  }
+  section:nth-of-type(2):nth-of-type(3) #dTitre {
+    height: 10vh;
+    align-content: center;
+  }
+  section:nth-of-type(2):nth-of-type(3) h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  section:nth-of-type(2):nth-of-type(3) h2 h3 {
+    font-size: 3vw;
+    text-align: center;
+  }
+  section:nth-of-type(2):nth-of-type(3) div {
+    width: 90%;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div {
+    width: 70%;
+    margin: 2% 0;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte {
+    width: 100%;
+    flex-direction: column;
+    height: 15vh;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte h4 {
+    font-size: 3.5vw;
+    text-transform: uppercase;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte h5 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #aaaaaa;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte p {
+    font-size: 2.8vw;
+    color: #aaaaaa;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) h4 {
+    margin-bottom: 5%;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) h5 {
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) p {
+    margin-bottom: 3%;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div .dImg {
+    width: 95%;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(odd) {
+    text-align: center;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(odd) p {
+    text-align: center;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(even) {
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(even) p {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
