@@ -628,72 +628,81 @@ footer div pre {
     height: 6vh;
     font-size: 2.5vw;
   }
-  section:nth-of-type(2):nth-of-type(3) #dTitre {
+  section:nth-of-type(3) #dTitre {
     height: 10vh;
     align-content: center;
   }
-  section:nth-of-type(2):nth-of-type(3) h2 {
+  section:nth-of-type(3) #dTitre h2 {
     font-size: 4vw;
     text-align: center;
   }
-  section:nth-of-type(2):nth-of-type(3) h2 h3 {
+  section:nth-of-type(3) #dTitre h3 {
     font-size: 3vw;
     text-align: center;
   }
-  section:nth-of-type(2):nth-of-type(3) div {
+  section:nth-of-type(3) div {
     width: 90%;
+    margin: 2% auto;
   }
-  section:nth-of-type(2):nth-of-type(3) div div {
-    width: 70%;
-    margin: 2% 0;
-  }
-  section:nth-of-type(2):nth-of-type(3) div div .texte {
+  section:nth-of-type(3) div div {
     width: 100%;
+    margin: auto 0;
+  }
+  section:nth-of-type(3) div div .texte {
+    width: 60%;
     flex-direction: column;
+    justify-content: space-evenly;
     height: 15vh;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte h4 {
-    font-size: 3.5vw;
-    text-transform: uppercase;
-  }
-  section:nth-of-type(2):nth-of-type(3) div div .texte h5 {
+  section:nth-of-type(3) div div .texte h4 {
     font-size: 3vw;
     text-transform: uppercase;
+  }
+  section:nth-of-type(3) div div .texte h5 {
+    font-size: 2.4vw;
+    text-transform: uppercase;
     color: #aaaaaa;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte p {
-    font-size: 2.8vw;
+  section:nth-of-type(3) div div .texte p {
+    font-size: 1.6vw;
     color: #aaaaaa;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) {
-    flex-direction: row;
-    justify-content: space-evenly;
+  section:nth-of-type(3) div div .dImg {
+    width: 30%;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) h4 {
-    margin-bottom: 5%;
+  section:nth-of-type(4) {
+    height: 28vh;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) h5 {
+  section:nth-of-type(4) div {
+    height: 28vh;
+  }
+  section:nth-of-type(4) div h2 {
+    font-size: 4vw;
     margin-bottom: 3%;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .texte:nth-of-type(even) p {
-    margin-bottom: 3%;
+  section:nth-of-type(4) div h3 {
+    font-size: 3vw;
   }
-  section:nth-of-type(2):nth-of-type(3) div div .dImg {
-    width: 95%;
+  section:nth-of-type(4) div button {
+    width: 25%;
+    height: 40px;
   }
-  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(odd) {
-    text-align: center;
+  section:nth-of-type(4) div button a {
+    font-size: 2.5vw;
   }
-  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(odd) p {
-    text-align: center;
+
+  footer {
+    width: 100%;
+    height: 26vh;
   }
-  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(even) {
-    text-align: center;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+  footer div {
+    margin-bottom: 2%;
   }
-  section:nth-of-type(2):nth-of-type(3) div div:nth-of-type(even) p {
-    text-align: center;
+  footer div i {
+    font-size: 3.2vw;
+  }
+  footer div pre {
+    font-size: 2.2vw;
   }
 }
 
